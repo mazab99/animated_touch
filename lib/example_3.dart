@@ -102,8 +102,8 @@ class _ColorfulPadState extends State<_ColorfulPad> {
           color: _highlighted ? Colors.green : Colors.red,
           shape: BoxShape.circle,
         ),
-        width: _highlighted ? 200 : 70,
-        height: _highlighted ? 200 : 70,
+        width: _highlighted ? 200 : 80,
+        height: _highlighted ? 200 : 80,
         child: ClipOval(
           child: Image.network(
             widget.imageUrl,
